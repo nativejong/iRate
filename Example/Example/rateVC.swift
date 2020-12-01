@@ -7,23 +7,24 @@
 //
 
 import UIKit
-import iRate
+//import
+
 
 class rateVC: UIViewController {
-    var music : iRate?
+//    var music : iRate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
-        music = iRate(frame: CGRect.zero)
-        self.view.addSubview(music!)
+//        music = iRate(frame: CGRect.zero)
+//        self.view.addSubview(music!)
     }
     
 
     override func viewWillLayoutSubviews() {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
-        music?.frame = CGRect(x: w * 0.2, y: h * 0.4, width: w * 0.6, height: h * 0.1)
+//        music?.frame = CGRect(x: w * 0.2, y: h * 0.4, width: w * 0.6, height: h * 0.1)
     }
 
 }
