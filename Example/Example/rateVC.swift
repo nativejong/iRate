@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import
+import iRate
 
 
 class rateVC: UIViewController {
