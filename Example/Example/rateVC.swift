@@ -16,10 +16,16 @@ class rateVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
+        
         rate = iRate(frame: CGRect.zero)
         self.view.addSubview(rate!)
-        
         self.view.backgroundColor = UIColor.white
+        
+                
+        rate?.watchAction(1.2, rating: { (rv : CGFloat) -> Bool in
+            print( String( format: "value %f", rv ) )
+            return( true )
+        })
     }
     
 
