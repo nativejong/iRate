@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/images/irate.gif" alt="My cool logo" width="200" height="80"/>
+    <img src="/images/irate.gif" alt="My cool logo" width="200" height="100"/>
   </a>
 
   <h3 align="center">iRate</h3>
